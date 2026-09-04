@@ -13,7 +13,8 @@
     "bcryptjs": "^2.4.3", 
     "mssql": "^9.1.1", 
     "dotenv": "^16.0.3", 
-    "cors": "^2.8.5" 
+    "cors": "^2.8.5", 
+    "joi": "^17.9.2" 
   }, 
   "devDependencies": { 
     "nodemon": "^2.0.20" 
