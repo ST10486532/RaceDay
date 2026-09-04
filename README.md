@@ -33,3 +33,26 @@ Full API documentation available in RaceDay_API_Endpoint_Plan.md
  
 ## Author 
 Gift - ST10486532@rcconnect.edu.za 
+ 
+## API Endpoints Summary 
+- POST /api/auth/register - Register user 
+- POST /api/auth/login - Login user 
+- GET /api/users/me - Get profile 
+- PUT /api/users/me - Update profile 
+- GET /api/events - List events 
+- GET /api/events/:id - Get event 
+- POST /api/events - Create event 
+- PUT /api/events/:id - Update event 
+- DELETE /api/events/:id - Delete event 
+- GET /api/events/:id/categories - List categories 
+- POST /api/events/:id/categories - Add category 
+- PUT /api/categories/:id - Update category 
+- DELETE /api/categories/:id - Delete category 
+- POST /api/categories/:id/enrol - Enrol in category 
+- GET /api/users/me/enrolments - View enrolments 
+- DELETE /api/enrolments/:id - Cancel enrolment 
+- GET /api/events/:id/enrolments - Event roster 
+- POST /api/enrolments/:id/result - Capture result 
+- PUT /api/results/:id - Edit result 
+- GET /api/users/me/results - User results 
+- GET /api/events/:id/results - Event leaderboard 
