@@ -65,3 +65,5 @@ Tests start the real API in memory against an in-memory EF Core database and cal
 | Extra 409 responses (delete event/category with enrolments, duplicate enrolment, full category) | Protects data integrity |
 
 The Part 1 files in `/docs` (ERD, SQL script, endpoint plan) have been updated to match.
+
+ ![Successful CI build](docs/images/ci-green-build.png)
