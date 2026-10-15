@@ -66,4 +66,4 @@ Tests start the real API in memory against an in-memory EF Core database and cal
 
 The Part 1 files in `/docs` (ERD, SQL script, endpoint plan) have been updated to match.
 
- ![Successful CI build](docs/images/ci-green-build.png)
+ ![Successful CI build](docs/images/ci-green-build.jpg)
